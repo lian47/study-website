@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 242, 231, 0.50);;
+}
+
+.logo{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.principal{
+    background: #181012;
+}
+
+nav{
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+body {
+    background: #1F1517;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    color: #FFF2E7;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    background-color: #241A1C;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0px 0px 18px -75px rgba(20, 15, 16, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #C7BAB3;
+}
+
+label {
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+
+input, select {
+    background-color: #1F1517;
+    color: #FFF2E7;
+    border: 1px solid #A45A49;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #FFF2E7;
+    box-shadow: 0 0 5px rgba(255, 242, 231, 0.5);
+}
+
+button {
+    background-color: #A45A49;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #844139;
+}
+
+nav {
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 242, 231, 0.50);
+}
+
+.logo {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+footer{
+
+    padding: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181A;
+}
